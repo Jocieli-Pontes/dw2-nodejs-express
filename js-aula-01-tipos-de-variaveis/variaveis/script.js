@@ -18,3 +18,4 @@ let nome = "diego";
  document.write("<br>");
  document.write(pais);
  // valor de uma constante nao pode ser alterada
+ 
