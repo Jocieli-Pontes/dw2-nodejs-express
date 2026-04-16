@@ -36,8 +36,8 @@ associacoes();
 
 Promise.all(
     [
-    Cliente.sync({force:true}),
-    Pedido.sync({force:true})
+    Cliente.sync({force:false}),
+    Pedido.sync({force:false})
     ]
 ).then(()=>{
     console.log("Entidades criadas e relacionadas com sucesso!");
